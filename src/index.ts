@@ -9,7 +9,7 @@ async function main() {
     .description(
       'A simple CLI made on top of developerexcuses.com to provide you an excuse!'
     )
-    .option('-c, --copy', 'Copy the excuse to clipboard', false)
+    .option('-c, --copy','Copy the excuse to clipboard').preset(false)
 
   program.parse()
 
